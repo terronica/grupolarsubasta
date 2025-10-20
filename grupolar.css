@@ -3,6 +3,19 @@
             padding: 0;
             box-sizing: border-box;
         }
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* 🔹 alinea el logo a la izquierda */
+    height: 60px;    /* altura aproximada del SVG original */
+    width: 200px;    /* ancho aproximado del SVG original */
+}
+
+.logo-img {
+    height: 100%;
+    width: auto;
+    object-fit: contain; /* evita deformaciones */
+}
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

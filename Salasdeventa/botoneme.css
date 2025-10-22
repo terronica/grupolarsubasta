@@ -122,3 +122,20 @@
             }
         }
    
+.btn-puja {
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 8cm; /* ancho fijo */
+    text-align: center;
+    font-size: 16px;
+    margin-left: auto; /* mueve el botón a la derecha dentro de un contenedor flex */
+    display: block; /* asegura que funcione correctamente en flex o block */
+}
+
+.btn-puja:hover {
+    background-color: #005a9e;
+}
